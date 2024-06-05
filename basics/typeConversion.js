@@ -22,5 +22,17 @@ let booleanIsLoggedIn= Boolean(isLoggedIn)
 let someNumber=33
 
 let stringConvert = String(someNumber)
-console.log(stringConvert);
-console.log(typeof(stringConvert));
+// console.log(stringConvert);
+// console.log(typeof(stringConvert));
+
+// **************Operations**************//
+
+let str1 = "Hello"
+let str2 = " Saurabh"
+let str3 = str1+ str2
+// console.log(str3); 
+
+console.log(1+"2");
+console.log(1+2+"2");
+console.log("1"+2+2);
+console.log(1+2+"2");
