@@ -9,7 +9,7 @@ form.addEventListener('submit',function(e){
     const nr = document.querySelector(".normal-range");
     const ow = document.querySelector(".over-weight")
     function refresh(){
-        window.location.reload ();
+        // window.location.reload ();
     }
 
     if(height ==='' || height <=0 || isNaN(height)){
