@@ -46,6 +46,11 @@ function validateGuess(guess) {
 function checkGuess(guess){
     if(guess===randomNumber){
         displayMessage(`You guessed it right`)
+        p.classList.add('button');
+        p.innerHTML = `<h2 id="newGame">Start new Game</h2>`;
+        startOver.appendChild(p);
+        playGame = false;
+        newGame();
     }
     else if(guess<randomNumber){
         displayMessage(`Number is too low`)
